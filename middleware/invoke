@@ -1,0 +1,6 @@
+#!/bin/sh
+
+/usr/bin/invoke_app "$@" -C @tool/bin/CellSortHexCC3D.sh -t CellSortHexCC3D \
+                         -u compucell3d-4.1.1 \
+                         -w captive \
+                         -r none
